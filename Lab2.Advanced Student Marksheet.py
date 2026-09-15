@@ -1,4 +1,4 @@
-#Write a Python program to create an advanced student marksheet. The program should:
+#2. Write a Python program to create an advanced student marksheet. The program should:
 #Ask the user to enter the student's name and roll number.
 #Input marks for 5 subjects.
 #Calculate the total marks and percentage.
