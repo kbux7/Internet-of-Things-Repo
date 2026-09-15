@@ -1,18 +1,17 @@
-#2. Write a Python program to create an advanced student marksheet. The program should:
-#Ask the user to enter the student's name and roll number.
-#Input marks for 5 subjects.
-#Calculate the total marks and percentage.
-#Determine the grade according to:
-#80–100% → A+
-#70–79% → A
-#60–69% → B
-#50–59% → C
-#40–49% → D
-#Below 40% → F
-#Check whether the student passed or failed.
-#If the student scores below 40 in any subject, declare the student a Fail regardless of the overall percentage.
-#Display a complete marksheet containing the student's information, such as name and roll no., subject marks, total, percentage, grade, and result.
-
+# 2. Write a Python program to create an advanced student marksheet. The program should:
+# Ask the user to enter the student's name and roll number.
+# Input marks for 5 subjects.
+# Calculate the total marks and percentage.
+# Determine the grade according to:
+# 80–100% → A+
+# 70–79% → A
+# 60–69% → B
+# 50–59% → C
+# 40–49% → D
+# Below 40% → F
+# Check whether the student passed or failed.
+# If the student scores below 40 in any subject, declare the student a Fail regardless of the overall percentage.
+# Display a complete marksheet containing the student's information, such as name and roll no., subject marks, total, percentage, grade, and result.
 
 Student_Name = str(input("Enter Student Name: "))
 Roll_No = int(input("Enter Student Roll No: "))
