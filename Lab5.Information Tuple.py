@@ -10,6 +10,5 @@ age = int(input('Enter your age: '))
 program = str(input('Enter your program: '))
 marks = int(input ('Enter your marks: '))
 
-infotuple = ()
-infotuple = name, age, program, marks
+infotuple = (name, age, program, marks)
 print(infotuple)
