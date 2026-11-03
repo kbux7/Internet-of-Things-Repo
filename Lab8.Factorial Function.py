@@ -1,0 +1,13 @@
+#Question 1: write a function to calculate the factorial.
+
+def factorial(n):
+    fact = 1
+
+    for i in range(1, n + 1):
+        fact *= i
+
+    return fact
+
+
+num = int(input("Enter a number: "))
+print("Factorial:", factorial(num))
